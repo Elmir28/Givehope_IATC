@@ -1,0 +1,300 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top_container{
+    width: 100%;
+    min-height: 395px;
+    background-color: black;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://freedmanclub.com/wp-content/uploads/2021/06/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80-%D0%B2-%D0%92%D0%B0%D1%88%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD%D0%B5-%D0%B8-%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-Bitcoin-%D0%B2-%D0%A1%D0%A8%D0%903.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+.navbar{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 250px;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    float: left;
+    box-sizing: border-box;
+    color: #ffffff;
+    margin-left: 250px;
+    letter-spacing: 2px;
+}
+.menu{
+    min-width: 400px;
+    min-height: inherit;
+    float: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 8px;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+    padding: 13px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 7px;
+}
+
+.menu ul li a:hover{
+    /* border-bottom: 3px solid white; */
+    padding-bottom: 7px;
+    transition: 0.2s;
+}
+
+.menu ul li a{
+    position: relative;
+    transition: 1px;
+}
+.menu ul li a::after{
+    content: "";
+    height: 3px;
+    width: 0px;
+    background: white;
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu ul li a:hover::after{
+    width: 100%;
+}
+
+.top_content{
+    width: 100%;
+    min-height: inherit;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 409px;
+}
+.top_content, .top_info{
+    height: 70px;
+    width: 700px;
+    float: left;
+}
+.div_info{
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+.icon_wv{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 50px 25px 0 275px;
+}
+
+.fa_class{
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 12px;
+    color: #f7ca44;
+}
+
+.fa_class:hover{
+    transform: scale(1.1);
+}
+
+.wv_info a{
+    float: left;
+    margin-top: 64px;
+    font-size: 18px;
+    color: #f7ca44;
+    text-decoration: none;
+}
+
+.bottom_container{
+    min-width: 768px;
+    min-height: 260px;
+    float: left;
+    margin: 25px 0 35px 384px;
+}
+
+.left_side{
+    width: 335px;
+    height: 210px;
+    background-color: #f7ca44;
+    float: left;
+    padding: 30px 0 0 28px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.left_side h3{
+    font-weight: 500;
+}
+
+.left_side h1{
+    padding: 3px 0;
+}
+
+.bottom_container .left_side button{
+    text-transform: uppercase;
+    padding: 9px;
+    box-shadow: 0 3px 10px gray;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    border: 0px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.bottom_container .left_side button:hover{
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.right_side{
+    width: 363px;
+    height: 205px;
+    float: left;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.size_rg{
+    font-size: 14px;
+}
+
+.right_side h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    padding-bottom: 8px;
+}
+
+.bottom_container .right_side button{
+    text-transform: uppercase;
+    background-color: #f7ca44;
+    padding: 9px;
+    color: #ffffff;
+    box-shadow: 0 3px 10px gray;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    border: 0;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.bottom_container .right_side button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.bottom_container .left_side h3{
+    font-size: 20px;
+}
+
+.bottom_container .left_side h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.bottom_info{
+    width: 778px;
+    height: 150px;
+    float: left;
+    margin-left: 384px;
+    margin-top: 40px;
+}
+
+hr{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid rgb(170, 170, 170);
+    opacity: 0.1;
+}
+
+.ch1 , .ch2 , .ch3{
+    width: 248px;
+    height: inherit;
+    float: left;
+}
+
+.ch1_icon{
+    width: 60px;
+    height: inherit;
+    float: left;
+}
+
+.faicon1{
+    font-size: 30px;
+    margin-left: 18px;
+    color: #f7ca44;
+}
+
+.ch2_icon{
+    width: 60px;
+    height: inherit;
+    float: left;
+}
+
+.faicon2{
+    font-size: 30px;
+    margin-left: 5px;
+    color: #f7ca44;
+}
+
+.ch3_icon{
+    width: 60px;
+    height: inherit;
+    float: left;
+}
+
+.faicon3{
+    font-size: 30px;
+    color: #f7ca44;
+    margin-left: 5px;
+}
+
+.bottom_info p{
+    color: grey;
+}
+
+.bottom_info a{
+    color: #f7ca44;
+}
+
+.bottom_info a:hover{
+    text-decoration: none;
+}
+
+.bottom_info h4{
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
